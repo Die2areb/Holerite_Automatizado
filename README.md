@@ -55,11 +55,10 @@ O arquivo `config.py` deve conter as seguintes variáveis:
 
 ## Como Usar
 
-1. Coloque os arquivos PDF de recibos no diretório especificado em `config.DIRETORIO_RECIBOS`.
-2. Execute o script `main.py`.
-3. Os recibos processados serão movidos para o diretório especificado em `config.DIRETORIO_RECIBOS_PROCESSADOS` e enviados por e-mail aos respectivos funcionários.
+1. Cria uma pasta com nome da organização. `config.DIRETORIO_RECIBOS`.
+2. Dentro da pasta da organização, teremos dois arquivos Python que serão  `main.py`e `config.DIRETORIO_RECIBOS`.
+3. Teremos uma pasta normal chamada   `Recibo_pagamento` a qual você recebendo o arquivo de pagamento você coloca dentro da pasta.
+4. Ao fazer os passos anteriores, temos um arquivo em Excel a qual tem os dados dos colaboradores a qual o programa irá ler.
+5. Por fim, apenas clicar duas vezes no `run.bat`  que ele irá rodar o código e todos os arquivos processados, estarão na pasta processados.
+   
 
-## Exemplo de `config.py`
-
-```python
-DIRETORIO_RECIBOS = "
